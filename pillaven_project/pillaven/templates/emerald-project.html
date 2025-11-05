@@ -1,0 +1,191 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+{% block content %}
+	<!-- Start main-content -->
+	<section class="page-title" style="background-image: url('{% static 'images/background/page-title.jpg' %}');">
+		<div class="auto-container">
+			<div class="title-outer">
+				<h1 class="title">Project Details</h1>
+				<ul class="page-breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="page-projects.html">Projects</a></li>
+					<li>Projects details</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- end main-content -->
+
+	<!--Project Details Start-->
+	<section class="project-details">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="project-details__top">
+						<div class="project-details__img"> <img src="{% static 'images/resource/02.png' %}" alt=""> </div>
+					</div>
+				</div>
+			</div>
+			<div class="project-details__content">
+				<div class="row">
+					<div class="col-xl-8 col-lg-8">
+						<div class="project-details__content-left">
+							<h3 class="mb-4">Here to Know About This Project</h3>
+							<p class="">At Emerald Psychological Services, we provide compassionate, evidence-based care for
+                                individuals,
+                                couples, and families navigating emotional and mental health challenges.
+                                Our licensed Clinical Psychologists are committed to supporting you with
+                                professionalism, empathy,
+                                and confidentiality every step of the way. </p>
+							<p class="mb-5">We specialize in virtual therapy, bringing quality mental health support to you—no
+                                matter your location.
+                                Whether you're facing anxiety, depression, trauma, burnout, or relationship
+                                difficulties,
+                                we are here to help you heal, grow, and thrive.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4">
+						<div class="project-details__content-right">
+							<div class="project-details__details-box">
+								<div class="project-details__bg-shape"> </div>
+								<ul class="list-unstyled project-details__details-list">
+									
+									<li>
+										<p class="project-details__client">Client</p>
+										<h4 class="project-details__name">EMERALD PSYCHOLOGICAL SERVICES</h4>
+									</li>
+									<li>
+										<p class="project-details__client">Website</p>
+										<h4 class="project-details__name">http://emeraldpsychologicalservices.com</h4>
+									</li>
+									
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--Project Details End-->
+
+	<!-- Projects section two-->
+	<section class="projects-section-two p-0">
+			<div class="bg-image" style="background-image: url('{% static 'images/background/2.jpg' %}');"></div>
+			<div class="auto-container">
+				<div class="upper-box">
+					<div class="counter-column">
+						<div class="count-box">
+							<span class="title">Projects Delivered</span>
+							<div class="numbers">100+</div>
+						</div>
+					</div>
+					<div class="text-column">
+						<div class="text">We build scalable software products and unique websites that solve real-world business challenges with innovative, high-performing solutions.</div>
+					</div>
+				</div>
+
+				<div class="sec-title text-center light">
+					<span class="sub-title">Our Portfolio</span>
+					<h2>Innovative Solutions Showcase</h2>
+				</div>
+
+				<div class="carousel-outer">
+					<div class="projects-carousel owl-carousel owl-theme">
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'emeraldproject' %}"><img
+												src="{% static 'images/resource/emerald-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'emeraldproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Emerald Psychological Services</span>
+										<h6 class="title"><a href="{% url 'emeraldproject' %}">Caring for Your Mind, Wherever You Are</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'pillavenproject' %}"><img
+												src="{% static 'images/resource/pillaven-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'pillavenproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Pillaven</span>
+										<h6 class="title"><a href="page-project-details.html">AI-Powered Publishing for Modern Authors</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'axisproject' %}"><img
+												src="{% static 'images/resource/axis-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'axisproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Axis Mental Health Services Ltd</span>
+										<h6 class="title"><a href="{% url 'axisproject' %}">Healing Minds, Strengthening Lives</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'benueproject' %}"><img
+												src="{% static 'images/resource/benue-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'benueproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Benue AgroFlow</span>
+										<h6 class="title"><a href="{% url 'benueproject' %}">Streamlined Fertilizer Allocation Management System</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- End Projects Section -->
+{% endblock content %}
+	
+
+{% block scripts %}
+	<script data-cfasync="false" src="{% static '../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+	<script src="{% static 'js/jquery-ui.js' %}"></script>
+	<script src="{% static 'js/wow.js' %}"></script>
+	<script src="{% static 'js/appear.js' %}"></script>
+	<script src="{% static 'js/select2.min.js' %}"></script>
+	<script src="{% static 'js/swiper.min.js' %}"></script>
+	<script src="{% static 'js/owl.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+
+{% endblock scripts %}

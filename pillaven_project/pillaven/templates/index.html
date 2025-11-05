@@ -1,0 +1,570 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+
+{% block content %}
+	<!--Main Slider-->
+		<section class="main-slider">
+			<div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
+				<div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+					<ul>
+						<!-- Slide 1 -->
+						<li data-index="rs-1" data-transition="zoomout">
+							<!-- MAIN IMAGE -->
+							<img src="{% static 'images/resource/authentic-small-youthful-marketing-agency.jpg' %}" alt="" class="rev-slidebg">
+
+							<div class="tp-caption" data-paddingbottom="[15,15,15,15]" data-paddingleft="[15,15,15,15]"
+								data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]"
+								data-responsive_offset="on" data-type="text" data-height="none"
+								data-width="['750','750','750','650']" data-whitespace="normal"
+								data-hoffset="['0','0','0','0']" data-voffset="['20','20','0','0']"
+								data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']"
+								data-textalign="['top','top','top','top']"
+								data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+								<h1>Innovative <span class="style-font color2">&amp;</span> <br>high-performing <br>solutions</h1>
+							</div>
+
+
+							<div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[15,15,15,15]"
+								data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]"
+								data-responsive_offset="on" data-type="text" data-height="none"
+								data-width="['700','750','700','450']" data-whitespace="normal"
+								data-hoffset="['0','0','0','0']" data-voffset="['215','215','215','215']"
+								data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']"
+								data-textalign="['top','top','top','top']"
+								data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+								<a href="{% url 'about' %}" class="theme-btn btn-style-one bg-theme-color2"><span
+										class="btn-title">Explore now</span></a>
+							</div>
+						</li>
+						<!-- Slide 2 -->
+						<li data-index="rs-2" data-transition="zoomout">
+							<!-- MAIN IMAGE -->
+							<img src="{% static 'images/resource/social-integrated-person-workspace.jpg' %}" alt="" class="rev-slidebg">
+
+							<div class="tp-caption" data-paddingbottom="[15,15,15,15]" data-paddingleft="[15,15,15,15]"
+								data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]"
+								data-responsive_offset="on" data-type="text" data-height="none"
+								data-width="['750','750','750','650']" data-whitespace="normal"
+								data-hoffset="['0','0','0','0']" data-voffset="['20','20','0','0']"
+								data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']"
+								data-textalign="['top','top','top','top']"
+								data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+								<h1>Creative <span class="style-font color2">&amp;</span> <br>user-centric <br>design approach</h1>
+							</div>
+
+
+							<div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[15,15,15,15]"
+								data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]"
+								data-responsive_offset="on" data-type="text" data-height="none"
+								data-width="['700','750','700','450']" data-whitespace="normal"
+								data-hoffset="['0','0','0','0']" data-voffset="['215','215','215','215']"
+								data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']"
+								data-textalign="['top','top','top','top']"
+								data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+								<a href="{% url 'about' %}" class="theme-btn btn-style-one bg-theme-color2"><span
+										class="btn-title">Explore now</span></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- End Main Slider-->
+
+		<!-- About Section -->
+		<section class="about-section">
+			<div class="auto-container">
+				<div class="row">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight"
+						data-wow-delay="600ms">
+						<div class="inner-column">
+							<div class="sec-title">
+								<span class="sub-title">Our Approach</span>
+								<h2>Custom software tailored to your needs</h2>
+								<div class="text">We can build you custom software, tailor it to meet your specific needs, and leverage our expertise to deliver the best solutions for your business.</div>
+							</div>
+
+							<ul class="list-style-two">
+								<li><i class="fa fa-check-circle"></i> Custom software built for your requirements</li>
+								<li><i class="fa fa-check-circle"></i> Tailored solutions that meet your specific needs</li>
+								<li><i class="fa fa-check-circle"></i> Expert delivery ensuring the best results</li>
+							</ul>
+
+							<div class="btn-box">
+								<a href="tel:+2349012345678" class="info-btn">
+									<i class="icon fa fa-phone"></i>
+									<small>Call Anytime</small> +234 913 686 8301
+								</a>
+								<a href="{% url 'about' %}" class="theme-btn btn-style-one"><span
+										class="btn-title">Explore now</span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column wow fadeInLeft">
+							<figure class="image-1 overlay-anim wow fadeInUp"><img src="{% static 'images/resource/design-1.jpg' %}"
+									alt=""></figure>
+							
+							<div class="experience bounce-y">
+	<div class="inner">
+		<i class="icon flaticon-discuss"></i>
+		<div class="text"><strong>100+</strong> Successful <br>Projects</div>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Emd About Section -->
+
+		<section class="about-section">
+			<div class="auto-container">
+				<div class="row">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft"
+						data-wow-delay="600ms">
+						<div class="inner-column">
+							<div class="sec-title">
+								<span class="sub-title">Our Approach</span>
+								<h2>Ready-made software solutions for your business</h2>
+								<div class="text">We build in-house software that already provides solutions to various businesses, delivering proven results and reliable performance.</div>
+							</div>
+
+							<ul class="list-style-two">
+								<li><i class="fa fa-check-circle"></i> In-house developed software solutions</li>
+								<li><i class="fa fa-check-circle"></i> Proven results across various business sectors</li>
+								<li><i class="fa fa-check-circle"></i> Reliable performance and ongoing support</li>
+							</ul>
+
+							<div class="btn-box">
+								<a href="tel:+2349012345678" class="info-btn">
+									<i class="icon fa fa-phone"></i>
+									<small>Call Anytime</small> +234 913 686 8301
+								</a>
+								<a href="{% url 'about' %}" class="theme-btn btn-style-one"><span
+										class="btn-title">Explore now</span></a>
+							</div>
+						</div>
+					</div>	
+					
+					<!-- Image Column -->
+					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column  wow fadeInRight">
+							<figure class="image-1 overlay-anim wow fadeInUp"><img src="{% static 'images/resource/woman-working-laptop.jpg' %}"
+									alt=""></figure>
+							<figure class="image-2 overlay-anim wow fadeInRight"><img src="{% static 'images/resource/about-2.jpg' %}"
+									alt=""></figure>
+							<div class="experience bounce-y">
+	<div class="inner">
+		<i class="icon flaticon-discuss"></i>
+		<div class="text"><strong>100+</strong> Successful <br>Projects</div>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Services Section -->
+		<section class="services-section pt-0">
+			<div class="auto-container">
+				<div class="sec-title text-center">
+					<span class="sub-title">What We're Offering</span>
+					<h2>Services we provide to <br>build your digital presence.</h2>
+				</div>
+
+				<div class="row">
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-color-sample"></i></div>
+							<h5 class="title"><a href="{% url 'about' %}">Innovative Web Design</a></h5>
+							<div class="text">Creative and user-centric website designs focused on functionality and exceptional user experience.
+							</div>
+							<a href="{% url 'about' %}" class="read-more"><i
+									class="fa fa-long-arrow-alt-right"></i> Read more</a>
+						</div>
+					</div>
+
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-front-end"></i></div>
+							<h5 class="title"><a href="{% url 'about' %}">Scalable Development</a></h5>
+							<div class="text">Building scalable software products and websites with long-term growth and performance in mind.
+							</div>
+							<a href="{% url 'about' %}" class="read-more"><i
+									class="fa fa-long-arrow-alt-right"></i> Read more</a>
+						</div>
+					</div>
+
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-online-shopping"></i></div>
+							<h5 class="title"><a href="{% url 'about' %}">Business Solutions</a></h5>
+							<div class="text">High-performing solutions that solve real-world business challenges and drive results.
+							</div>
+							<a href="{% url 'about' %}" class="read-more"><i
+									class="fa fa-long-arrow-alt-right"></i> Read more</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom-box">
+					<div class="text">Build and launch <strong>unique websites with long-term scalability</strong> for your business.
+					</div>
+					<a href="{% url 'about' %}" class="theme-btn btn-style-one"><span class="btn-title">Explore
+							now</span></a>
+				</div>
+			</div>
+		</section>
+		<!-- End Services Section-->
+
+		
+
+		<!-- Projects section two-->
+		<section class="projects-section-two p-0">
+			<div class="bg-image" style="background-image: url(static/images/background/2.jpg)"></div>
+			<div class="auto-container">
+				<div class="upper-box">
+					<div class="counter-column">
+						<div class="count-box">
+							<span class="title">Projects Delivered</span>
+							<div class="numbers">100+</div>
+						</div>
+					</div>
+					<div class="text-column">
+						<div class="text">We build scalable software products and unique websites that solve real-world business challenges with innovative, high-performing solutions.</div>
+					</div>
+				</div>
+
+				<div class="sec-title text-center light">
+					<span class="sub-title">Our Portfolio</span>
+					<h2>Innovative Solutions Showcase</h2>
+				</div>
+
+				<div class="carousel-outer">
+					<div class="projects-carousel owl-carousel owl-theme">
+						{% for project in allprojects %}
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'projectpage' project.slug %}"><img
+												src="{{ project.preview_image.url }}" alt="{{ project.name }}"></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'projectpage' project.slug %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">{{ project.name }}</span>
+										<h6 class="title"><a href="{% url 'projectpage' project.slug %}">{{ project.tagline }}</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Projects Section -->
+
+		<!-- Why Choose Us -->
+		<section class="why-choose-us">
+			<div class="bg bg-pattern-2"></div>
+			<div class="auto-container">
+				<div class="row">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight"
+						data-wow-delay="600ms">
+						<div class="inner-column">
+							<div class="sec-title">
+								<span class="sub-title">Our Expert Team</span>
+								<h2>Experienced designers & developers</h2>
+								<div class="text">Our team is committed to providing innovative and high-performing solutions with a unique approach that focuses on creativity, functionality, and user-centric design. We bring together diverse expertise to deliver exceptional results.</div>
+							</div>
+
+							<blockquote class="blockquote-one">Our team builds scalable software products that solve real-world business challenges with precision and innovation.</blockquote>
+
+							<div class="btn-box">
+								
+								<a href="{% url 'team' %}" class="theme-btn btn-style-one"><span
+										class="btn-title">Meet our team experts</span></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column wow fadeInLeft">
+							<div class="image-box">
+								<span class="bg-shape"></span>
+								<figure class="image-1 overlay-anim wow fadeInUp"><img
+										src="{% static 'images/resource/onje.jpg' %}" alt=""></figure>
+								<figure class="image-2 overlay-anim wow fadeInRight"><img
+										src="{% static 'images/resource/grace.jpg' %}" alt=""></figure>
+								<figure class="image-3 overlay-anim wow fadeInRight"><img
+										src="{% static 'images/resource/johnson.jpg' %}" alt=""></figure>
+								<figure class="logo"><img src="{% static 'images/a.png' %}" alt=""></figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Emd Why Choose Us -->
+
+
+		<!-- Testimonial Section -->
+		<section class="testimonial-section">
+			<div class="bg bg-pattern-5"></div>
+			<div class="auto-container">
+				<div class="row">
+					<div class="title-column col-xl-5 col-lg-4 col-md-12">
+						<div class="sec-title light">
+							<span class="sub-title">Client Success Stories</span>
+							<h2>What our clients say about our work</h2>
+							<div class="text">Discover how our innovative solutions and user-centric approach have helped businesses achieve their digital goals with scalable, high-performing websites.</div>
+						</div>
+					</div>
+
+					<div class="testimonial-column col-xl-7 col-lg-8 col-md-12">
+						<div class="carousel-outer">
+							<div class="testimonial-carousel owl-carousel owl-theme">
+								
+
+								<!-- Testimonial Block -->
+								<div class="testimonial-block">
+									<div class="inner-box">
+										<div class="image-box">
+											<figure class="image"><img src="{% static 'images/resource/portrait-handsome-bearded-male.jpg' %}" alt="">
+											</figure>
+											<div class="info-box">
+												<h4 class="name">Michael Chen</h4>
+												<span class="designation">Tech Startup Founder</span>
+											</div>
+											<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i></div>
+										</div>
+										<div class="text">The team's unique focus on creativity and functionality solved real-world business challenges we faced. Their user-centric design approach exceeded our expectations.</div>
+									</div>
+								</div>
+
+								<!-- Testimonial Block -->
+								<div class="testimonial-block">
+									<div class="inner-box">
+										<div class="image-box">
+											<figure class="image"><img src="{% static 'images/resource/female-2.jpg' %}" alt="">
+											</figure>
+											<div class="info-box">
+												<h4 class="name">Emily Gabriel</h4>
+												<span class="designation">E-commerce Manager</span>
+											</div>
+											<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i></div>
+										</div>
+										<div class="text">They delivered exactly what we needed - a unique website with long-term scalability. The quality and attention to detail in both design and functionality were outstanding.</div>
+									</div>
+								</div>
+
+								<!-- Testimonial Block -->
+								<div class="testimonial-block">
+									<div class="inner-box">
+										<div class="image-box">
+											<figure class="image"><img src="{% static 'images/resource/user 2.jpg' %}" alt="">
+											</figure>
+											<div class="info-box">
+												<h4 class="name">David Thompson</h4>
+												<span class="designation">Operations Director</span>
+											</div>
+											<div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i><i class="fa fa-star"></i><i
+													class="fa fa-star"></i></div>
+										</div>
+										<div class="text">Their commitment to providing scalable software products that solve real business challenges is remarkable. The solutions they built have significantly improved our operations.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonial Section -->
+
+		<!-- FAQ Section -->
+		<section class="faqs-section">
+			<div class="bg bg-pattern-4"></div>
+			<div class="auto-container">
+				<div class="sec-title text-center">
+					<span class="sub-title">Have Any Questions?</span>
+					<h2>Frequently asked questions</h2>
+				</div>
+
+				<div class="row">
+					<!-- FAQ Column -->
+					<div class="faq-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+
+							<ul class="accordion-box wow fadeInRight">
+								<!--Block-->
+								<li class="accordion block active-block">
+									<div class="acc-btn active">What makes your approach unique?
+										<div class="icon fa fa-angle-down"></div>
+									</div>
+									<div class="acc-content current">
+										<div class="content">
+											<div class="text">Our uniqueness lies in our approach, focusing on creativity, functionality, and user-centric design. We combine innovative thinking with high-performing solutions to deliver exceptional results for every project.</div>
+										</div>
+									</div>
+								</li>
+
+								<!--Block-->
+								<li class="accordion block">
+									<div class="acc-btn">How do you ensure long-term scalability?
+										<div class="icon fa fa-angle-down"></div>
+									</div>
+									<div class="acc-content">
+										<div class="content">
+											<div class="text">We build and launch unique websites with long-term scalability in mind, using robust architectures and scalable software solutions that grow with your business and solve real-world challenges effectively.</div>
+										</div>
+									</div>
+								</li>
+
+								<!--Block-->
+								<li class="accordion block">
+									<div class="acc-btn">What types of solutions do you provide?
+										<div class="icon fa fa-angle-down"></div>
+									</div>
+									<div class="acc-content">
+										<div class="content">
+											<div class="text">We provide innovative and high-performing solutions including web design, scalable software development, and business applications that address specific challenges while maintaining exceptional quality and performance.</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<div class="image-box">
+								<figure class="image overlay-anim"><img src="{% static 'images/resource/Untitled design.png' %}" alt=""></figure>
+							</div>
+
+							<div class="graph-box">
+								<!-- Pie Graph -->
+								<div class="pie-graph">
+									<div class="graph-outer">
+										<input type="text" class="dial" data-fgColor="#008c8c" data-bgColor="#f9f9f9"
+											data-width="125" data-height="125" data-linecap="normal" value="90">
+										<div class="inner-text count-box"><span class="count-text txt" data-stop="90"
+												data-speed="2000"></span>%</div>
+									</div>
+									<h6 class="title">Client <br>Satisfaction</h6>
+								</div>
+								<!-- Pie Graph -->
+								<div class="pie-graph">
+									<div class="graph-outer">
+										<input type="text" class="dial" data-fgColor="#008c8c" data-bgColor="#f9f9f9"
+											data-width="125" data-height="125" data-linecap="normal" value="95">
+										<div class="inner-text count-box"><span class="count-text txt" data-stop="95"
+												data-speed="2000"></span>%</div>
+									</div>
+									<h6 class="title">Project <br>Success</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End FAQ Section -->
+
+		<!-- Call To Action -->
+		<section class="call-to-action">
+			<div class="bg bg-pattern-8"></div>
+			<div class="auto-container">
+				<div class="outer-box wow fadeIn">
+					<div class="title-box">
+						<h2 class="title">Ready for innovative & high-performing <br>solutions?</h2>
+					</div>
+					<div class="btn-box">
+						<a href="{% url 'contact' %}" class="theme-btn btn-style-one light"><span
+								class="btn-title">Contact Us</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Call To Action -->
+{% endblock content %}
+	
+
+{% block scripts %}
+	<script data-cfasync="false" src="{% static '../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script>
+	<script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<!--Revolution Slider-->
+	<script src="{% static 'plugins/revolution/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.actions.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.carousel.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.migration.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+	<script src="{% static 'plugins/revolution/js/extensions/revolution.extension.video.min.js' %}"></script>
+	<script src="{% static 'js/main-slider-script.js' %}"></script>
+	<!--Revolution Slider-->
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+	<script src="{% static 'js/wow.js' %}"></script>
+	<script src="{% static 'js/appear.js' %}"></script>
+	<script src="{% static 'js/knob.js' %}"></script>
+	<script src="{% static 'js/select2.min.js' %}"></script>
+	<script src="{% static 'js/owl.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+	<!-- form submit -->
+	<script src="{% static 'js/jquery.validate.min.js' %}"></script>
+	<script src="{% static 'js/jquery.form.min.js' %}"></script>
+	<script>
+		(function ($) {
+			$("#contact_form").validate({
+				submitHandler: function (form) {
+					var form_btn = $(form).find('button[type="submit"]');
+					var form_result_div = '#form-result';
+					$(form_result_div).remove();
+					form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+					var form_btn_old_msg = form_btn.html();
+					form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+					$(form).ajaxSubmit({
+						dataType: 'json',
+						success: function (data) {
+							if (data.status == 'true') {
+								$(form).find('.form-control').val('');
+							}
+							form_btn.prop('disabled', false).html(form_btn_old_msg);
+							$(form_result_div).html(data.message).fadeIn('slow');
+							setTimeout(function () { $(form_result_div).fadeOut('slow') }, 6000);
+						}
+					});
+				}
+			});
+		})(jQuery);
+	</script>
+{% endblock scripts %}
+	

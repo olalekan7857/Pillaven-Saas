@@ -1,0 +1,139 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+{% block content %}
+	<!-- Start main-content -->
+	<section class="page-title" style="background-image: url('{% static 'images/background/page-title.jpg' %}');">
+		<div class="auto-container">
+			<div class="title-outer">
+				<h1 class="title">Team</h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li>Team</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- end main-content -->
+
+	<!-- Team Section -->
+	<section class="">
+		<div class="container pb-90">
+			<div class="row">
+				<!-- Team Block -->
+				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box mb-md-30">
+						<div class="image-box">
+							<figure class="image"><a href="#"><img src="{% static 'images/resource/johnson.jpg' %}" alt="" style="object-fit: cover;"></a></figure>
+							<div class="social-links">
+								<a href="fb.com/j.aduragbemi"><i class="fab fa-facebook-f"></i></a>
+								<a href="linkedin.com/in/johnson-aduragbemi"><i class="fab fa-linkedin"></i></a>
+								<a href="ig.com/joluwatosin_/"><i class="fab fa-instagram"></i></a>
+							</div>
+							<span class="share-icon fa fa-plus"></span>
+						</div>
+						<div class="info-box">
+							<h4 class="name"><a href="linkedin.com/in/johnson-aduragbemi">Aduragbemi Johnson</a></h4>
+							<span class="designation">Web Developer</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Block -->
+				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box mb-md-30">
+						<div class="image-box">
+							<figure class="image"><a href="#"><img src="{% static 'images/resource/seyi.jpg' %}" alt="" style="object-fit: cover;"></a></figure>
+							<div class="social-links">
+								<a href="https://www.linkedin.com/in/obaseyi-akinfenwa-229491287"><i class="fab fa-linkedin"></i></a>
+								
+							</div>
+							<span class="share-icon fa fa-plus"></span>
+						</div>
+						<div class="info-box">
+							<h4 class="name"><a href="https://www.linkedin.com/in/obaseyi-akinfenwa-229491287">Akinfenwa Obaseyi</a></h4>
+							<span class="designation">Web Developer</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Block -->
+				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<figure class="image"><a href="#"><img src="{% static 'images/resource/onje.jpg' %}" alt="" style="object-fit: cover;"></a></figure>
+							<div class="social-links">
+								
+								<a href="https://web.facebook.com/gabsweb.designer.developer"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.linkedin.com/in/onje-thankgod-gabriel-website-designer/"><i class="fab fa-linkedin"></i></a>
+								
+							</div>
+							<span class="share-icon fa fa-plus"></span>
+						</div>
+						<div class="info-box">
+							<h4 class="name"><a href="https://www.linkedin.com/in/onje-thankgod-gabriel-website-designer/">Onje Thankgod Gabriel</a></h4>
+							<span class="designation">Web Developer</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Block -->
+				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<figure class="image"><a href="#"><img src="{% static 'images/resource/ibrahim.jpg' %}" alt="" style="object-fit: cover;"></a></figure>
+							<div class="social-links">
+					
+								<a href="https://www.facebook.com/ibrahim.ademola.7583"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://www.linkedin.com/in/ademola-ibrahim-5969a2378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/horlalekan___?igsh=NWY3MzU5YXl0azBn"><i class="fab fa-instagram"></i></a>
+							</div>
+							<span class="share-icon fa fa-plus"></span>
+						</div>
+						<div class="info-box">
+							<h4 class="name"><a href="https://www.linkedin.com/in/ademola-ibrahim-5969a2378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Ademola Ibrahim Olalekan </a></h4>
+							<span class="designation">Web Developer</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Team Block -->
+				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<figure class="image"><a href="#"><img src="{% static 'images/resource/grace.jpg' %}" alt=""></a></figure>
+							<div class="social-links">
+								<a href="https://x.com/Emm_jay388"><i class="fab fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/in/moriojuoluwa-grace-sogelola-34a887329/"><i class="fab fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/emm_jay388/"><i class="fab fa-instagram"></i></a>
+							</div>
+							<span class="share-icon fa fa-plus"></span>
+						</div>
+						<div class="info-box">
+							<h4 class="name"><a href="https://www.linkedin.com/in/moriojuoluwa-grace-sogelola-34a887329/">Sogelola Moriojuoluwa</a></h4>
+							<span class="designation">Web Developer</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End Team Section -->
+{% endblock content %}
+	
+
+
+{% block scripts %}
+	<script data-cfasync="false" src="{% static '../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+	<script src="{% static 'js/jquery-ui.js' %}"></script>
+	<script src="{% static 'js/wow.js' %}"></script>
+	<script src="{% static 'js/appear.js' %}"></script>
+	<script src="{% static 'js/select2.min.js' %}"></script>
+	<script src="{% static 'js/swiper.min.js' %}"></script>
+	<script src="{% static 'js/owl.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+{% endblock scripts %}

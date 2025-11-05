@@ -1,0 +1,339 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+{% block content %}
+	<!-- Start main-content -->
+	<section class="page-title" style="background-image: url('{% static 'images/background/page-title.jpg' %}');">
+		<div class="auto-container">
+			<div class="title-outer">
+				<h1 class="title">About Us</h1>
+				<ul class="page-breadcrumb">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					
+					<li>About</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- end main-content -->
+
+	<!-- About Section -->
+		<section class="about-section">
+			<div class="auto-container">
+				<div class="row">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight"
+						data-wow-delay="600ms">
+						<div class="inner-column">
+							<div class="sec-title">
+								<span class="sub-title">Our Approach</span>
+								<h2>Custom software tailored to your needs</h2>
+								<div class="text">We can build you custom software, tailor it to meet your specific needs, and leverage our expertise to deliver the best solutions for your business.</div>
+							</div>
+
+							<ul class="list-style-two">
+								<li><i class="fa fa-check-circle"></i> Custom software built for your requirements</li>
+								<li><i class="fa fa-check-circle"></i> Tailored solutions that meet your specific needs</li>
+								<li><i class="fa fa-check-circle"></i> Expert delivery ensuring the best results</li>
+							</ul>
+							<div class="btn-box">
+								<a href="tel:+2349012345678" class="info-btn">
+									<i class="icon fa fa-phone"></i>
+									<small>Call Anytime</small> +234 913 686 8301
+								</a>
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- Image Column -->
+					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column wow fadeInLeft">
+							<figure class="image-1 overlay-anim wow fadeInUp"><img src="{% static 'images/resource/design-1.jpg' %}"
+									alt=""></figure>
+							
+							<div class="experience bounce-y">
+	<div class="inner">
+		<i class="icon flaticon-discuss"></i>
+		<div class="text"><strong>100+</strong> Successful <br>Projects</div>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Emd About Section -->
+
+		<section class="about-section">
+			<div class="auto-container">
+				<div class="row">
+					<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft"
+						data-wow-delay="600ms">
+						<div class="inner-column">
+							<div class="sec-title">
+								<span class="sub-title">Our Approach</span>
+								<h2>Ready-made software solutions for your business</h2>
+								<div class="text">We build in-house software that already provides solutions to various businesses, delivering proven results and reliable performance.</div>
+							</div>
+
+							<ul class="list-style-two">
+								<li><i class="fa fa-check-circle"></i> In-house developed software solutions</li>
+								<li><i class="fa fa-check-circle"></i> Proven results across various business sectors</li>
+								<li><i class="fa fa-check-circle"></i> Reliable performance and ongoing support</li>
+							</ul>
+
+							<div class="btn-box">
+								<a href="tel:+2349012345678" class="info-btn">
+									<i class="icon fa fa-phone"></i>
+									<small>Call Anytime</small> +234 913 686 8301
+								</a>
+								
+							</div>
+						</div>
+					</div>	
+					
+					<!-- Image Column -->
+					<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+						<div class="inner-column  wow fadeInRight">
+							<figure class="image-1 overlay-anim wow fadeInUp"><img src="{% static 'images/resource/woman-working-laptop.jpg' %}"
+									alt=""></figure>
+							<figure class="image-2 overlay-anim wow fadeInRight"><img src="{% static 'images/resource/about-2.jpg' %}"
+									alt=""></figure>
+							<div class="experience bounce-y">
+	<div class="inner">
+		<i class="icon flaticon-discuss"></i>
+		<div class="text"><strong>100+</strong> Successful <br>Projects</div>
+	</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!-- Services Section -->
+	<section class="services-section pt-0">
+			<div class="auto-container">
+				<div class="sec-title text-center">
+					<span class="sub-title">What We're Offering</span>
+					<h2>Services we provide to <br>build your digital presence.</h2>
+				</div>
+
+				<div class="row">
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-color-sample"></i></div>
+							<h5 class="title"><a href="page-about.html">Innovative Web Design</a></h5>
+							<div class="text">Creative and user-centric website designs focused on functionality and exceptional user experience.
+							</div>
+							
+						</div>
+					</div>
+
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-front-end"></i></div>
+							<h5 class="title"><a href="page-about.html">Scalable Development</a></h5>
+							<div class="text">Building scalable software products and websites with long-term growth and performance in mind.
+							</div>
+							
+						</div>
+					</div>
+
+					<!-- Service Block -->
+					<div class="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+						<div class="inner-box">
+							<div class="icon-box"><i class="icon flaticon-online-shopping"></i></div>
+							<h5 class="title"><a href="page-about.html">Business Solutions</a></h5>
+							<div class="text">High-performing solutions that solve real-world business challenges and drive results.
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom-box">
+					<div class="text">Build and launch <strong>unique websites with long-term scalability</strong> for your business.
+					</div>
+					<a href="{% url 'contact' %}" class="theme-btn btn-style-one"><span class="btn-title">Contact us</span></a>
+				</div>
+			</div>
+		</section>
+	<!-- End Services Section-->
+
+	<!-- Features Section -->
+		<section class="features-section">
+			<div class="bg bg-pattern-1"></div>
+			<div class="auto-container">
+				<div class="row">
+					<!-- Content Column -->
+					<div class="content-column col-xl-5 col-lg-6 col-md-12">
+						<div class="inner-column wow fadeInRight">
+							<div class="sec-title">
+								<span class="sub-title">Our Commitment</span>
+								<h2>Innovative & high-performing solutions</h2>
+							</div>
+
+							<div class="feature-block">
+								<div class="inner-box">
+									<div class="content">
+										<span class="icon"><i class="fa fa-check"></i></span>
+										<h5 class="title">Creative Design Approach</h5>
+										<div class="text">Focusing on creativity, functionality, and user-centric design to deliver exceptional results.</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="feature-block">
+								<div class="inner-box">
+									<div class="content">
+										<span class="icon"><i class="fa fa-check"></i></span>
+										<h5 class="title">Scalable Solutions</h5>
+										<div class="text">Building scalable software products that solve real-world business challenges effectively.</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="feature-block">
+								<div class="inner-box">
+									<div class="content">
+										<span class="icon"><i class="fa fa-check"></i></span>
+										<h5 class="title">Long-term Scalability</h5>
+										<div class="text">Launch unique websites for long-term growth and sustainable performance.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Content Column -->
+					<div class="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
+						<div class="inner-column wow fadeInLeft">
+							<div class="image-box">
+								<figure class="image"><img src="{% static 'images/resource/group-afro-americans-working-together.jpg' %}" alt=""></figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Offer Section -->
+
+	<!-- Projects section two-->
+	<section class="projects-section-two p-0">
+			<div class="bg-image" style="background-image: url('{% static 'images/background/2.jpg' %}');"></div>
+			<div class="auto-container">
+				<div class="upper-box">
+					<div class="counter-column">
+						<div class="count-box">
+							<span class="title">Projects Delivered</span>
+							<div class="numbers">100+</div>
+						</div>
+					</div>
+					<div class="text-column">
+						<div class="text">We build scalable software products and unique websites that solve real-world business challenges with innovative, high-performing solutions.</div>
+					</div>
+				</div>
+
+				<div class="sec-title text-center light">
+					<span class="sub-title">Our Portfolio</span>
+					<h2>Innovative Solutions Showcase</h2>
+				</div>
+
+				<div class="carousel-outer">
+					<div class="projects-carousel owl-carousel owl-theme">
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'emeraldproject' %}"><img
+												src="{% static 'images/resource/emerald-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'emeraldproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Emerald Psychological Services</span>
+										<h6 class="title"><a href="{% url 'emeraldproject' %}">Caring for Your Mind, Wherever You Are</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'pillavenproject' %}"><img
+												src="{% static 'images/resource/pillaven-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'pillavenproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Pillaven</span>
+										<h6 class="title"><a href="page-project-details.html">AI-Powered Publishing for Modern Authors</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'axisproject' %}"><img
+												src="{% static 'images/resource/axis-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'axisproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Axis Mental Health Services Ltd</span>
+										<h6 class="title"><a href="{% url 'axisproject' %}">Healing Minds, Strengthening Lives</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project Block-->
+						<div class="project-block">
+							<div class="inner-box">
+								<div class="image-box">
+									<figure class="image"><a href="{% url 'benueproject' %}"><img
+												src="{% static 'images/resource/benue-pillaven.jpg' %}" alt=""></a>
+									</figure>
+									<div class="info-box">
+										<a href="{% url 'benueproject' %}" class="read-more"><i
+												class="fa fa-long-arrow-alt-right"></i></a>
+										<span class="cat">Benue AgroFlow</span>
+										<h6 class="title"><a href="{% url 'benueproject' %}">Streamlined Fertilizer Allocation Management System</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- End Projects Section -->
+{% endblock content %}
+
+
+{% block scripts %}
+	<script data-cfasync="false" src="{% static '../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/popper.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/jquery.fancybox.js' %}"></script>
+	<script src="{% static 'js/jquery-ui.js' %}"></script>
+	<script src="{% static 'js/wow.js' %}"></script>
+	<script src="{% static 'js/appear.js' %}"></script>
+	<script src="{% static 'js/select2.min.js' %}"></script>
+	<script src="{% static 'js/swiper.min.js' %}"></script>
+	<script src="{% static 'js/owl.js' %}"></script>
+	<script src="{% static 'js/script.js' %}"></script>
+{% endblock scripts %}
